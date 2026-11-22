@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local data (personal subscription rows)
+data/*.json
+!data/.gitkeep
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Caches, logs, sessions
+.cache/
+.turbo/
+coverage/
+logs/
+*.log
+sessions/
+.sessions/
+*.tmp
+*.temp
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
